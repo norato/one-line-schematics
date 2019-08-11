@@ -7,7 +7,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "schematics:link": "yarn --cwd custom-schematics/ link ; yarn link \"@custom/schematics\"",
+    "schematics:watch": "yarn --cwd custom-schematics/ build:watch",
+    "schematics:build": "yarn --cwd custom-schematics/ build"
   },
   "private": true,
   "dependencies": {
