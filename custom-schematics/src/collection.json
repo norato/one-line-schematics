@@ -1,9 +1,9 @@
 {
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
-    "custom-schematics": {
+    "first-strategy": {
       "description": "A blank schematic.",
-      "factory": "./custom-schematics/index#customSchematics"
+      "factory": "./first-strategy/index#firstStrategy"
     }
   }
 }
