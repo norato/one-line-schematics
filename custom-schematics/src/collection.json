@@ -2,9 +2,14 @@
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
     "first-strategy": {
-      "description": "A blank schematic.",
+      "description": "Schematic using the first strategy.",
       "factory": "./first-strategy/index#firstStrategy",
       "schema": "./first-strategy/schema.json"
+    },
+    "second-strategy": {
+      "description": "Schematic using Sngular cdk",
+      "factory": "./second-strategy/index#secondStrategy",
+      "schema": "./second-strategy/schema.json"
     }
   }
 }
