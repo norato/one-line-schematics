@@ -3,7 +3,8 @@
   "schematics": {
     "first-strategy": {
       "description": "A blank schematic.",
-      "factory": "./first-strategy/index#firstStrategy"
+      "factory": "./first-strategy/index#firstStrategy",
+      "schema": "./first-strategy/schema.json"
     }
   }
 }
